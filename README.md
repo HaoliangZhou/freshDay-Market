@@ -13,7 +13,8 @@ This is an online shopping fresh food Market.<br>
     Springcloud ： nacos , openfeign ， gateway 等
 
 ## 软件架构：
-    天天生鲜超市购物系统的设计与开发采用分布式技术，整个系统分为Common、Member、Product、Cart、Order、Auth、TraceSource和Gateway八大模块，<br>并通过SpringCloud Feign进行远程调用来进行多种组合和实现系统功能。模块设计具体如下：
+    天天生鲜超市购物系统的设计与开发采用分布式技术，整个系统分为Common、Member、Product、Cart、Order、Auth、TraceSource和Gateway八大模块，<br>
+    并通过SpringCloud Feign进行远程调用来进行多种组合和实现系统功能。模块设计具体如下：
         1.Freshday-common：存放各模块共需的共有包，其中包括共同的依赖，常量，统一异常处理，一些工具类等，供其他模块引入使用。
         2.Freshday-member：提供用户管理的相关服务。
         3.Freshday-product：提供包括商品的增删改查、上下架、详情等在内的商品服务。
