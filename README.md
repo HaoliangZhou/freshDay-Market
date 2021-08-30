@@ -14,12 +14,12 @@ This is an online shopping fresh food Market.<br>
 
 ## 软件架构：
 天天生鲜超市购物系统的设计与开发采用分布式技术，整个系统分为Common、Member、Product、Cart、Order、Auth、TraceSource和Gateway八大模块，并通过SpringCloud Feign进行远程调用来进行多种组合和实现系统功能。模块设计具体如下：
-        1.Freshday-common：存放各模块共需的共有包，其中包括共同的依赖，常量，统一异常处理，一些工具类等，供其他模块引入使用。
-        2.Freshday-member：提供用户管理的相关服务。
-        3.Freshday-product：提供包括商品的增删改查、上下架、详情等在内的商品服务。
-        4.Freshday-cart：提供购物车管理的相关服务。
-        5.Freshday-order：提供订单管理的相关服务。
-        6.Freshday-auth-server：提供中央认证服务，包括用户的注册和登录。
+1.Freshday-common：存放各模块共需的共有包，其中包括共同的依赖，常量，统一异常处理，一些工具类等，供其他模块引入使用。<br>
+2.Freshday-member：提供用户管理的相关服务。<br>
+3.Freshday-product：提供包括商品的增删改查、上下架、详情等在内的商品服务。<br>
+4.Freshday-cart：提供购物车管理的相关服务。<br>
+5.Freshday-order：提供订单管理的相关服务。<br>
+6.Freshday-auth-server：提供中央认证服务，包括用户的注册和登录。<br>
 7.Freshday-traceSource：提供区块链管理中溯源管理的相关服务。<br>
 8.Freshday-gateway：提供网关服务 , 进行服务转发和负载均衡。
 ## 安装教程：
