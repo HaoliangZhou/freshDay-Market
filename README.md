@@ -1,2 +1,3 @@
 # freshDay-Market
-This is an online shopping fresh food Market
+天天生鲜超市购物系统<br>
+详见master分支
