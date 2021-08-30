@@ -36,7 +36,7 @@ This is an online shopping fresh food Market.<br>
     3.安装nacos，并在application.yml 中配置nacos的注册地址，启动nacos
     4.修改application.yml 将其修改为自己的。
     5.启动上述各个微服务。
-    6.前端服务在 另一个仓库
+    6.前端服务在 https://github.com/HaoliangZhou/freshDay-Market-VUE.git
     7.进入安装目录，在终端使用命令
     8.npm run dev
     9.项目启动成功，访问 localhost:8001
