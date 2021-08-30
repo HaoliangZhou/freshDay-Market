@@ -20,8 +20,8 @@ This is an online shopping fresh food Market.<br>
         4.Freshday-cart：提供购物车管理的相关服务。
         5.Freshday-order：提供订单管理的相关服务。
         6.Freshday-auth-server：提供中央认证服务，包括用户的注册和登录。
-        7.Freshday-traceSource：提供区块链管理中溯源管理的相关服务。
-        8.Freshday-gateway：提供网关服务 , 进行服务转发和负载均衡。
+7.Freshday-traceSource：提供区块链管理中溯源管理的相关服务。<br>
+8.Freshday-gateway：提供网关服务 , 进行服务转发和负载均衡。
 ## 安装教程：
     1.确保安装环境，安装node-js v10.2.4 以上，安装地址 http://nodejs.cn/
     2.安装git 版本控制 https://gitforwindows.org/
