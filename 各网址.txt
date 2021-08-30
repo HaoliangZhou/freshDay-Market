@@ -1,0 +1,6 @@
+首页：http://localhost:12000/index.html
+详情：http://localhost:12000/item.html
+注册：http://localhost:20000/reg.html
+登录：http://localhost:20000/login.html
+成功加购：http://localhost:30000/addCart
+购物车列表：http://localhost:30000/cart

@@ -1,0 +1,16 @@
+2021-06-09 21:57:18,376 INFO [dump-all-ok] freshday-coupon.properties+DEFAULT_GROUP, 1618042192389, length=46, md5=93d7a5ab5a6899899bb52705ddb424ad
+
+2021-06-09 21:57:18,376 INFO [dump-all-ok] freshday-coupon.properties+DEFAULT_GROUP, 1618043089241, length=41, md5=0aca3a5270085c7c3802029a7e53be32
+
+2021-06-09 21:57:18,376 INFO [dump-all-ok] freshday-coupon.properties+dev, 1618044089763, length=40, md5=ac14ca7968af6d56a43482edc2f35315
+
+2021-06-09 21:57:18,376 INFO [dump-all-ok] freshday-coupon.properties+prod, 1618044150642, length=41, md5=5c0181dab9263d2582d84b125601fdee
+
+2021-06-09 21:57:18,376 INFO [dump-all-ok] datasource.yml+dev, 1618044366077, length=161, md5=d021efb4611b735acb32fe47180b77dd
+
+2021-06-09 21:57:18,376 INFO [dump-all-ok] mybatis.yml+dev, 1618044413278, length=116, md5=3c8cba7df1687e1fbe635fdfa0352287
+
+2021-06-09 21:57:18,376 INFO [dump-all-ok] other.yml+dev, 1618044459509, length=136, md5=e1030b0401fc48bebd5e5d0e5ccadc11
+
+2021-06-09 21:57:18,376 INFO [dump-all-ok] freshday-gateway.yml+DEFAULT_GROUP, 1618047476303, length=57, md5=c2923dba8bf6d3d1dfa2c0ffc4090e93
+

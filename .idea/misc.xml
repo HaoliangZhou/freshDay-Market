@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/freshday-product/pom.xml" />
+        <option value="$PROJECT_DIR$/freshday-ware/pom.xml" />
+        <option value="$PROJECT_DIR$/freshday-coupon/pom.xml" />
+        <option value="$PROJECT_DIR$/freshday-member/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/freshday-order/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-fast/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-generator/pom.xml" />
+        <option value="$PROJECT_DIR$/freshday-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/freshday-auth-server/pom.xml" />
+        <option value="$PROJECT_DIR$/freshday-cart/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

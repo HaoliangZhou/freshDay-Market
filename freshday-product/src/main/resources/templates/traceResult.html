@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>天天生鲜-溯源查询</title>
+	<link rel="stylesheet" type="text/css" href="index/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="index/css/main.css">
+	<link type="text/css" rel="stylesheet" href="index/themes/css/core.css">
+    <link type="text/css" rel="stylesheet" href="index/themes/css/home.css">
+    <style>
+	body {background-image:url('index/themes/img/bg/nest.png');}
+	</style>
+</head>
+<body >
+	<div class="login_top clearfix">
+		<a href="http://localhost:12000/index.html" class="login_logo"><img src="index/img/logo02.png" height="100px"></a>
+	</div>
+
+	<div class="login_form_bg1">
+		<div class="login_form_wrap clearfix">
+			
+			<div class="dongdong">
+				<div class="pc-means">
+					<h2>溯源编号</h2>
+					<h3>3306211998090918085712</h3>
+				</div>
+				<div class="soft_con_icon">
+                	<ul>
+                    	<li><a id="pic_fun_adm" href="javascript:void(0);"><img src="index/themes/img/icon/icon1.png" width="98" height="98"/><p style="color:#17bc78">产品信息</p></a></li>
+                    	<li><a id="pic_fun_crm" href="javascript:void(0);"><img  src="index/themes/img/icon/icon2.png" width="98" height="98"/><p>生产信息</p></a></li>
+                    	<li><a id="pic_fun_project" href="javascript:void(0);"><img  src="index/themes/img/icon/icon3.png" width="98" height="98"/><p>物流信息</p></a></li>
+                    	<li><a id="pic_fun_k" href="javascript:void(0);"><img  src="index/themes/img/icon/icon4.png" width="98" height="98"/><p>销售信息</p></a></li>
+                	</ul>
+           		 </div>
+            	<div class="soft_con1" style="background:url(themes/img/bg/line1.png);"></div>
+            	<div class="soft_con">
+                	<div id="xzgl" class="soft_con2">
+                    	<p><em>在这里:</em>为您提供：<br/>商品名称：农家新语 丹东99红颜奶油草莓3斤大果 新鲜水果 空运直达丨商品编号：25514207644丨店铺： 农家新语旗舰店丨商品毛重：1.6kg丨商品产地：中国大陆丨品种：红颜草莓丨原产地：辽宁丨包装：礼盒装丨国产/进口：国产</p>
+                	</div>
+                	<div id="crm" class="soft_con2" style="display:none">
+                    	<p><em>在这里:</em>为您提供：<br/>供应商名称：农家新语丨收获时间：2021-5-1,13:05丨肥料：原绿有机肥丨出厂时间：2021-5-1,13:35
+						</p>
+                	</div>
+               	 	<div id="xmgl" class="soft_con2" style="display:none">
+                    	<p><em>在这里:</em>为您提供：<br/>物流商名称：天天速递丨出发时间：2021-5-1,14:00丨收货时间：2021-5-1,20:00丨出发地：辽宁丹东草莓种植基地 丨目的地：天天生鲜超市1号仓库
+							<br/>物流商名称：天天速递丨出发时间：2021-5-5,12:33丨收货时间：2021-5-6,12：00丨出发地：天天生鲜超市1号仓库 丨目的地：浙江省杭州市西湖区余杭塘路866号
+						</p>
+                	</div>
+                	<div id="zsgl" class="soft_con2" style="display:none">
+                    	<p><em>在这里:</em>为您提供：<br/>入库时间：2021-5-6,12：05 丨仓库温度：6℃ 丨交易号：2021050522001158211444375145丨交易时间：2021-5-5,11:30 丨出库时间：2021-5-5,12:20
+						</p>
+                	</div>
+            	</div>
+			</div>
+		
+		</div>
+	</div>
+
+	<div class="footer no-mp">
+		<div class="foot_link">
+			<a href="#">关于我们</a>
+			<span>|</span>
+			<a href="#">联系我们</a>
+			<span>|</span>
+			<a href="#">招聘人才</a>
+			<span>|</span>
+			<a href="#">友情链接</a>		
+		</div>
+		<p>CopyRight © 2021 江苏天天生鲜信息技术有限公司 All Rights Reserved</p>
+		<p>电话：010-****888    苏ICP备*******8号</p>
+	</div>
+	
+	<script type="text/javascript" src="index/themes/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="index/themes/js/banner.js"></script>
+	<script type="text/javascript" src="index/themes/js/top.js"></script>
+	<script type="text/javascript">
+    $(function(){
+        $(".soft_con_icon ul li a").mouseover(function(){
+            var id = $(this).attr("id");
+            var x=$(this).parent().index();
+            $(this).children("p").css({"color":"#17bc78"}).parent().parent().siblings().children().children("p").css({"color":"#333333"});
+            var src1=id+"_hover.gif"
+            $(".soft_con_icon ul li a").each(function(index, element) {
+
+            });
+            if(x==0){
+                $("#xzgl").css({"display":"block"}).siblings().css({"display":"none"});
+                $(".soft_con1").css({"background":" url(themes/img/bg/line1.png)"});
+            }else if(x==1){
+                $("#crm").css({"display":"block"}).siblings().css({"display":"none"});
+                $(".soft_con1").css({"background":"url(themes/img/bg/line2.png)"});
+            }else if(x==2){
+                $("#xmgl").css({"display":"block"}).siblings().css({"display":"none"});
+                $(".soft_con1").css({"background":"url(themes/img/bg/line3.png)"});
+            }else if(x==3){
+                $("#zsgl").css({"display":"block"}).siblings().css({"display":"none"});
+                $(".soft_con1").css({"background":"url(themes/img/bg/line4.png)"});
+            }
+        });//通过查询 切换
+    });
+
+    $(function(){
+        $(".smore").click(function(){
+            $(".pc-surface").show();
+        });
+        $(".pc-surface").click(function(){
+            $(".pc-surface").hide();
+        });
+    });//脚部浮层1
+
+    $(function(){
+        $(".smore1").click(function(){
+            $(".pc-surface1").show();
+        });
+        $(".pc-surface1").click(function(){
+            $(".pc-surface1").hide();
+        });
+    });//脚部浮层2
+
+    $(function(){
+        $(".smore2").click(function(){
+            $(".pc-surface2").show();
+        });
+        $(".pc-surface2").click(function(){
+            $(".pc-surface2").hide();
+        });
+    });//脚部浮层4
+
+    $(function(){
+        $(".smore3").click(function(){
+            $(".pc-surface3").show();
+        });
+        $(".pc-surface3").click(function(){
+            $(".pc-surface3").hide();
+        });
+    });//脚部浮层3
+
+    $(function(){
+        $(".select").each(function(){
+            var s=$(this);
+            var z=parseInt(s.css("z-index"));
+            var dt=$(this).children("dt");
+            var dd=$(this).children("dd");
+            var _show=function(){dd.slideDown(300);dt.addClass("cur");s.css("z-index",z+1);};   //展开效果
+            var _hide=function(){dd.slideUp(300);dt.removeClass("cur");s.css("z-index",z);};    //关闭效果
+            dt.click(function(){dd.is(":hidden")?_show():_hide();});
+            $("body").click(function(i){ !$(i.target).parents(".select").first().is(s) ? _hide():"";});
+        })
+    });//用户登录
+</script>
+</body>
+</html>

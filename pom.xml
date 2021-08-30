@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.haoliang.freshday</groupId>
+	<artifactId>freshday</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>freshday</name>
+	<description>天天生鲜-聚合服务</description>
+	<packaging>pom</packaging>
+	<modules>
+		<module>freshday-product</module>
+		<module>freshday-ware</module>
+		<module>freshday-order</module>
+		<module>freshday-coupon</module>
+		<module>freshday-member</module>
+		<module>renren-fast</module>
+		<module>renren-generator</module>
+		<module>freshday-common</module>
+	</modules>
+
+
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
+
+
+</project>

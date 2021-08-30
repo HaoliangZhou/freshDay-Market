@@ -1,0 +1,151 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td { padding:0; margin:0; font-size:12px; line-height:100%; font: 12px/1.5 "宋体",arial,tahoma,sans-serif; }
+
+:focus { outline: 0; }
+html,body { width:100%;  text-align:center; color:black; }
+ul, ol { list-style:none;}
+table { border-collapse:separate; border-spacing:0;}
+caption, th, td { font-weight:normal;}
+blockquote:before, blockquote:after,
+q:before, q:after { content: "";}
+blockquote, q { quotes: "" "";}
+img { border:none;}
+a { color:#000; text-decoration:none;}
+a:hover {text-decoration:none; }
+body {background-color:#ffffff; font-family: "微软雅黑","Microsoft Yahei","Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;}
+
+
+table.list th {padding:1px 2px; line-height:21px; border-right: solid 1px #D0D0D0; border-bottom:solid 1px #D0D0D0; font-weight:bolder; }
+table.list td {padding:1px 2px; line-height:21px; border-right:solid 1px #ededed;}
+table.list th.asc, .grid .gridHeader th.asc{background-position: 100% 0; background:url(../default/images/order_up.gif) no-repeat right; cursor:pointer;}
+table.list th.desc, .grid .gridHeader th.desc{background-position: 100% 0; background:url(../default/images/order_down.gif) no-repeat right; cursor:pointer;}
+table.list tbody {background-color:#fff;}
+table.list .right {text-align:right;}
+table.list .trbg {background-color:#F8F8F8;}
+table.list .hot {background-color:#fff5c0;}
+table.list .hover {background-color:#e4f5ff;}
+table.list .selected {background-color:#7cc5e5;border-color:#b8d0d6; }
+table.list a {color:#3C7FB1; font-size:11px; line-height:20px;}
+table.list a:hover {text-decoration:underline; line-height:20px;}
+table.list td span.error {z-index:-1}
+table.nowrap tbody tr {border-bottom:solid 1px #ededed;}
+
+
+
+
+
+h2.contentTitle{margin-bottom:10px; padding:0 10px; line-height:30px; font-size:14px; border-bottom:solid 1px #CCC;}
+h3.contentTitle{margin-bottom:5px; line-height:25px; font-size:13px; border-bottom:solid 1px #CCC;clear:both;}
+.dialog h2.contentTitle {border:none}
+
+
+
+
+a.btnAdd, a.btnDel, a.btnView, a.btnEdit, a.btnSelect, a.btnInfo, a.btnAssign, a.btnLook, a.btnAttach{background:url(../default/images/button/imgX.gif) no-repeat; display:block; width:22px; height:20px; text-indent:-1000px; overflow:hidden; float:left; margin-right: 3px}
+a.btnAdd{background-position:0 0}
+a.btnDel{background-position: -23px 0}
+a.btnInfo{background-position: -46px 0}
+a.btnAssign{background-position: -69px 0}
+a.btnView{background-position: -115px 0}
+a.btnEdit{background-position: -138px 0}
+a.btnSelect{background-position: -92px 0}
+a.btnLook{background-position: -161px 0}
+a.btnAttach{background-position: -183px 0}
+
+.clearfix::before, .clearfix::after {
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix::after {
+    clear: both;
+}
+.clearfix {
+}
+.clear {
+    clear: both;
+}
+
+.fr{ float:right;}
+
+
+.nav{width:100px;height:14px;position:absolute;bottom:40px;right:20px;z-index: 2; left: 50%;margin-left: -50px}
+.nav dl dd{list-style-type:none;width:12px;height:12px;float:left;margin-right:8px;cursor:pointer; background-color:#fff; border-radius:20px; border:1px solid #fff;}
+.nav dl .bg{background:#36a053;width:14px;height:14px;border:none;}
+
+.bannerbox{
+    height: 380px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.bannerbox ul{
+    position: relative;
+}
+.bannerbox ul li{
+    list-style: none;
+    width: 100%;
+    height: 380px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.bannerbox ul li.fst-li{
+    background: url("../img/pd/banner1.jpg") center no-repeat;
+    background-size: cover;
+}
+.bannerbox ul li.sec-li{
+    background: url("../img/pd/banner1.jpg") center no-repeat;
+    background-size: cover;
+}
+.bannerbox ul li.third-li{
+    background: url("../img/pd/banner3.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.bannerbox ul li.noe-li{
+    background: url("../img/pd/banner2.jpg") center no-repeat;
+    background-size: cover;
+}
+.bannerbox ul li .img1{
+    position: absolute;
+}
+
+
+.copyright { width:1200px; margin:0 auto; text-align:center; font-size:14px; color:#718aa7; line-height:55px;}
+
+.header { width:100%; height:40px; background-color:#f6f6f6; border-bottom:1px solid #eee;}
+.header-w { width:1200px; margin:0 auto; padding-top:5px; text-align:right;}
+
+
+.soft_function{width:800px;height:425px;margin:0 auto}
+.soft_con_icon{width:800px;height:140px;display:block;padding-top:10px}
+.soft_con_icon ul li{float:left;display:block;list-style:none;height:140px;width:150px; margin:0 25px;}
+.soft_con_icon ul li a p{color:#333333;font-size:18px;text-align:center; padding-top:5px;}
+.soft_con{height:120px;width:800px}
+.soft_con1{height:20px;width:800px;background:url(../img/bg/line1.png);transition:all 0.3s ease-out 0s;}
+.soft_con2{height:100px;width:770px; background:#fff; border-radius:3px; text-align:left; padding:14px;}
+.soft_con2 p { font-size:14px; line-height:26px; color:#666;}
+.soft_con2 p em { color:#36a053; font-size:18px; padding-right:10px;}
+.pc-title-pt { padding-top:40px;}
+
+
+
+.food_img{width:1200px;overflow:hidden;height:374px; position:relative;}
+.food_img li{float:left;width:270px;height:179px;position:relative;overflow:hidden;cursor:pointer;}
+.box{width:270px;height:179px;background:url(../img/img/food_bg.jpg) no-repeat left top #020000;position:absolute;left:0;line-height:18px; color:#e69714;top:-191px;filter:alpha(Opacity=80);-moz-opacity:0.8;opacity: 0.8; border-radius:3px; transition:all 0.2s ease-out 0s;}
+.box h3{color:#fff; font-size:22px; padding-top:50px;}
+.box p{color:#e69714; font-size:14px; padding-top:4px;}
+.food_img li img { border-radius:3px;}
+
+.ioc-title h2 { font-size:24px; padding-top:30px; padding-bottom:20px;}

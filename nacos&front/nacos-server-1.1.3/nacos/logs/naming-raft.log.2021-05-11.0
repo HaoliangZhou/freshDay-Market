@@ -1,0 +1,40 @@
+2021-05-11 15:16:10,997 INFO initializing Raft sub-system
+
+2021-05-11 15:16:10,998 INFO raft notifier started
+
+2021-05-11 15:16:10,999 INFO finish loading all datums, size: 0 cost 1 ms.
+
+2021-05-11 15:16:11,005 INFO cache loaded, datum count: 0, current term: 0
+
+2021-05-11 15:16:11,005 INFO finish to load data from disk, cost: 8 ms.
+
+2021-05-11 15:16:11,010 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2021-05-11 15:16:10,785 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.1.104","key":"192.168.1.104:0","lastRefTime":0,"servePort":0,"site":"unknown","weight":1}]
+
+2021-05-11 15:16:11,027 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.1.104","key":"192.168.1.104:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2021-05-11 15:16:11,156 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2021-05-11 15:16:15,034 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2021-05-11 15:16:20,777 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.1.104","key":"192.168.1.104:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-05-11 15:16:20,777 INFO server list is updated, dead: 1, servers: [{"adWeight":0,"alive":false,"ip":"192.168.1.104","key":"192.168.1.104:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2021-05-11 15:16:20,777 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.1.104","key":"192.168.1.104:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-05-11 15:16:45,792 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.1.104","key":"192.168.1.104:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-05-11 15:16:53,675 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@renren-fast
+
+2021-05-11 15:17:04,615 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@freshday-gateway
+
+2021-05-11 15:17:28,311 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@freshday-member
+
+2021-05-11 15:17:41,858 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@freshday-product
+
+2021-05-11 15:17:57,549 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@freshday-order
+
+2021-05-11 17:25:50,079 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@freshday-cart
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/freshday.iml" filepath="$PROJECT_DIR$/.idea/freshday.iml" />
+      <module fileurl="file://$PROJECT_DIR$/freshday-auth-server/freshday-auth-server.iml" filepath="$PROJECT_DIR$/freshday-auth-server/freshday-auth-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/freshday-cart/freshday-cart.iml" filepath="$PROJECT_DIR$/freshday-cart/freshday-cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/freshday-common/freshday-common.iml" filepath="$PROJECT_DIR$/freshday-common/freshday-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/freshday-coupon/freshday-coupon.iml" filepath="$PROJECT_DIR$/freshday-coupon/freshday-coupon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/freshday-gateway/freshday-gateway.iml" filepath="$PROJECT_DIR$/freshday-gateway/freshday-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/freshday-member/freshday-member.iml" filepath="$PROJECT_DIR$/freshday-member/freshday-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/freshday-order/freshday-order.iml" filepath="$PROJECT_DIR$/freshday-order/freshday-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/freshday-product/freshday-product.iml" filepath="$PROJECT_DIR$/freshday-product/freshday-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/freshday-ware/freshday-ware.iml" filepath="$PROJECT_DIR$/freshday-ware/freshday-ware.iml" />
+      <module fileurl="file://$PROJECT_DIR$/renren-fast/renren-fast.iml" filepath="$PROJECT_DIR$/renren-fast/renren-fast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/renren-generator/renren-generator.iml" filepath="$PROJECT_DIR$/renren-generator/renren-generator.iml" />
+    </modules>
+  </component>
+</project>

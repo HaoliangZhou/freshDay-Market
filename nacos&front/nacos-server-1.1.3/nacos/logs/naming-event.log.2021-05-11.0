@@ -1,0 +1,94 @@
+2021-05-11 15:16:53,699 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.104:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-05-11 15:16:53,702 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.1.104:8080_true,
+
+2021-05-11 15:17:04,616 INFO DEFAULT_GROUP@@freshday-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.104:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-05-11 15:17:04,616 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-gateway, ips: 192.168.1.104:88_true,
+
+2021-05-11 15:17:04,620 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-gateway, ips: 192.168.1.104:88_true,
+
+2021-05-11 15:17:28,313 INFO DEFAULT_GROUP@@freshday-member {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.104:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-05-11 15:17:28,313 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-member, ips: 192.168.1.104:8000_true,
+
+2021-05-11 15:17:28,315 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-member, ips: 192.168.1.104:8000_true,
+
+2021-05-11 15:17:41,859 INFO DEFAULT_GROUP@@freshday-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.104:12000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-05-11 15:17:41,859 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-product, ips: 192.168.1.104:12000_true,
+
+2021-05-11 15:17:41,862 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-product, ips: 192.168.1.104:12000_true,
+
+2021-05-11 15:17:57,549 INFO DEFAULT_GROUP@@freshday-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.104:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-05-11 15:17:57,549 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-order, ips: 192.168.1.104:9000_true,
+
+2021-05-11 15:18:32,545 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-product, ips: 192.168.1.104:12000_true,
+
+2021-05-11 17:25:50,080 INFO DEFAULT_GROUP@@freshday-cart {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.104:30000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-05-11 17:25:50,080 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-cart, ips: 192.168.1.104:30000_true,
+
+2021-05-11 17:25:50,081 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-cart, ips: 192.168.1.104:30000_true,
+
+2021-05-11 17:33:44,240 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-order, ips: 192.168.1.104:9000_true,
+
+2021-05-11 17:36:20,173 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-cart, ips: 192.168.1.104:30000_true,
+
+2021-05-11 17:37:33,495 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-cart, ips: 192.168.1.104:30000_true,
+
+2021-05-11 17:37:43,165 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-order, ips: 192.168.1.104:9000_true,
+
+2021-05-11 17:39:03,412 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-order, ips: 192.168.1.104:9000_true,
+
+2021-05-11 17:40:32,074 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-order, ips: 192.168.1.104:9000_true,
+
+2021-05-11 17:44:03,665 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-order, ips: 192.168.1.104:9000_true,
+
+2021-05-11 17:44:28,005 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-order, ips: 192.168.1.104:9000_true,
+
+2021-05-11 17:44:53,464 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-order, ips: 192.168.1.104:9000_true,
+
+2021-05-11 17:46:07,369 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-order, ips: 192.168.1.104:9000_true,
+
+2021-05-11 18:05:16,926 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-order, ips: 192.168.1.104:9000_true,
+
+2021-05-11 18:05:26,019 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-gateway, ips: 192.168.1.104:88_true,
+
+2021-05-11 18:10:42,819 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-gateway, ips: 192.168.1.104:88_true,
+
+2021-05-11 18:10:52,238 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-cart, ips: 192.168.1.104:30000_true,
+
+2021-05-11 18:15:52,632 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-order, ips: 192.168.1.104:9000_true,
+
+2021-05-11 18:17:51,141 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-order, ips: 192.168.1.104:9000_true,
+
+2021-05-11 18:18:20,129 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-order, ips: 192.168.1.104:9000_true,
+
+2021-05-11 19:01:32,985 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-order, ips: 192.168.1.104:9000_true,
+
+2021-05-11 19:02:27,273 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-order, ips: 192.168.1.104:9000_true,
+
+2021-05-11 19:04:01,222 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-order, ips: 192.168.1.104:9000_true,
+
+2021-05-11 19:13:46,513 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-product, ips: 192.168.1.104:12000_true,
+
+2021-05-11 19:14:29,642 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-product, ips: 192.168.1.104:12000_true,
+
+2021-05-11 19:15:44,251 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-product, ips: 192.168.1.104:12000_true,
+
+2021-05-11 19:22:20,476 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-order, ips: 192.168.1.104:9000_true,
+
+2021-05-11 19:22:23,520 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-cart, ips: 192.168.1.104:30000_true,
+
+2021-05-11 19:38:54,935 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@freshday-cart, ips: 192.168.1.104:30000_true,
+
+2021-05-11 21:15:17,077 INFO {POS} {IP-DISABLED} valid: 192.168.1.104:30000@DEFAULT@DEFAULT_GROUP@@freshday-cart, region: unknown, msg: client timeout after 15000, last beat: 1620738901865
+
+2021-05-11 21:15:17,854 INFO {POS} {IP-DISABLED} valid: 192.168.1.104:8000@DEFAULT@DEFAULT_GROUP@@freshday-member, region: unknown, msg: client timeout after 15000, last beat: 1620738901834
+
+2021-05-11 21:15:20,662 INFO {POS} {IP-DISABLED} valid: 192.168.1.104:12000@DEFAULT@DEFAULT_GROUP@@freshday-product, region: unknown, msg: client timeout after 15000, last beat: 1620738904102
+
+2021-05-11 21:15:21,612 INFO {POS} {IP-DISABLED} valid: 192.168.1.104:9000@DEFAULT@DEFAULT_GROUP@@freshday-order, region: unknown, msg: client timeout after 15000, last beat: 1620738904510
+

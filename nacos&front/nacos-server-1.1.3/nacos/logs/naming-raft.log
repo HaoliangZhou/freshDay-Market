@@ -1,0 +1,46 @@
+2021-06-09 21:57:14,366 INFO initializing Raft sub-system
+
+2021-06-09 21:57:14,366 INFO finish loading all datums, size: 0 cost 0 ms.
+
+2021-06-09 21:57:14,366 INFO raft notifier started
+
+2021-06-09 21:57:14,366 INFO cache loaded, datum count: 0, current term: 0
+
+2021-06-09 21:57:14,366 INFO finish to load data from disk, cost: 0 ms.
+
+2021-06-09 21:57:14,382 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2021-06-09 21:57:14,210 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"10.138.52.158","key":"10.138.52.158:0","lastRefTime":0,"servePort":0,"site":"unknown","weight":1}]
+
+2021-06-09 21:57:14,382 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"10.138.52.158","key":"10.138.52.158:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2021-06-09 21:57:14,460 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2021-06-09 21:57:17,422 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2021-06-09 21:57:20,565 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@freshday-order
+
+2021-06-09 21:57:20,755 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@freshday-member
+
+2021-06-09 21:57:21,302 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@freshday-ware
+
+2021-06-09 21:57:22,490 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@freshday-auth-server
+
+2021-06-09 21:57:23,446 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@freshday-cart
+
+2021-06-09 21:57:23,696 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@freshday-product
+
+2021-06-09 21:57:24,202 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"10.138.52.158","key":"10.138.52.158:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-06-09 21:57:24,202 INFO server list is updated, dead: 1, servers: [{"adWeight":0,"alive":false,"ip":"10.138.52.158","key":"10.138.52.158:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2021-06-09 21:57:24,202 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"10.138.52.158","key":"10.138.52.158:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-06-09 21:57:24,733 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@freshday-gateway
+
+2021-06-09 21:57:24,842 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@renren-fast
+
+2021-06-09 21:57:24,842 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@renren-fast
+
+2021-06-09 21:57:49,220 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"10.138.52.158","key":"10.138.52.158:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+

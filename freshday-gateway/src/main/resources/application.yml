@@ -1,0 +1,54 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: product_route
+          uri: lb://freshday-product
+          predicates:
+            - Path=/api/product/**
+          filters:
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: ware_route
+          uri: lb://freshday-ware
+          predicates:
+            - Path=/api/ware/**
+          filters:
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: member_route
+          uri: lb://freshday-member
+          predicates:
+            - Path=/api/member/**
+          filters:
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: order_route
+          uri: lb://freshday-order
+          predicates:
+            - Path=/api/order/**
+          filters:
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: admin_route
+          uri: lb://renren-fast
+          predicates:
+            - Path=/api/**
+          filters:
+            - RewritePath=/api/(?<segment>.*),/renren-fast/$\{segment}
+
+        - id: admin_auth_route
+          uri: lb://freshday-auth-server
+          predicates:
+            - Path=/api/auth/**
+
+        - id: admin_cart_route
+          uri: lb://freshday-cart
+          predicates:
+            - Path=/api/cart/**
+
+
+##前端项目，/api
+##http://localhost:88/api/captcha.jpg ==> http://localhost:8080/renren-fast/captcha.jpg
+##http://localhost:88/api/product/category/list/tree
+## ==> http://localhost:12000/product/category/list/tree
